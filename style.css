@@ -1,0 +1,41 @@
+
+:root {
+    --background-color-light: #ffffff;
+    --text-color-light: #333333;
+  
+    --background-color-dark: #121212;
+    --text-color-dark: #ffffff;
+  
+    --transition-duration: 0.3s;
+  }
+  
+  body {
+    background-color: var(--background-color-light);
+    color: var(--text-color-light);
+    transition: background-color var(--transition-duration), color var(--transition-duration);
+  }
+  
+  body.dark-mode {
+    background-color: var(--background-color-dark);
+    color: var(--text-color-dark);
+  }
+
+
+#gifSearch {
+            margin-top: 20px;
+            
+        }
+
+#gifContainer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+            margin: auto;
+        }
+
+.gifImage {
+            width: 200px;
+            margin: 10px;
+        }
+ 
